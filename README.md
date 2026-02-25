@@ -1,10 +1,25 @@
-O YOLO (You Only Look Once) permite a detecção em tempo real dentro do ambiente do Google Colab.
-Para este projeto, utilizamos a versão YOLOv8 (da Ultralytics), que é a mais amigável para implementação e possui excelente documentação.
-Abaixo, apresento um roteiro estruturado para implementarmos isso no seu notebook.
+# Projeto: Detecção de Objetos com Inteligentes com YOLOv8
 
-🛠️ #Estrutura do Projeto no Colab#
-Para que o projeto funcione, seguiremos estas etapas fundamentais:
-Configuração do Ambiente: Instalação das bibliotecas e verificação da GPU.
-Carregamento do Modelo: Download dos pesos pré-treinados (geralmente treinados na base COCO, que detecta 80 tipos de objetos comuns).
-Processamento da Imagem: Upload e inferência na imagem escolhida.
-Exibição dos Resultados: Plotagem da imagem com as Bounding Boxes (caixas delimitadoras).
+Este projeto tem como objetivo implementar um sistema de visão computacional capaz de identificar e classificar objetos em imagens digitais. Utilizando a arquitetura **YOLO (You Only Look Once)**, o sistema oferece alta performance e precisão, sendo ideal para aplicações que exigem processamento rápido de dados visuais.
+
+## 🚀 Sobre o Projeto
+O sistema utiliza o modelo **YOLOv8** (da Ultralytics), treinado na base de dados COCO, para detectar diversos objetos em tempo real. O foco principal é demonstrar a aplicabilidade da Inteligência Artificial em Sensores Inteligentes, permitindo a automação e análise de cenários através de imagens.
+
+## 🛠️ Tecnologias Utilizadas
+* **Linguagem:** Python
+* **Framework de Deep Learning:** Ultralytics YOLOv8
+* **Ambiente de Desenvolvimento:** Google Colab (utilizando aceleração por GPU T4)
+* **Processamento de Imagem:** OpenCV
+
+## 📋 Pré-requisitos
+Para rodar este projeto, você precisará de:
+1. Uma conta no Google.
+2. Acesso ao Google Colab.
+3. GPU ativada (Em *Configurações do Notebook*, selecione T4 GPU).
+
+## ⚙️ Como Executar
+1. Abra o arquivo `.ipynb` no seu Google Colab.
+2. Certifique-se de que a GPU está habilitada.
+3. Instale as dependências:
+   ```bash
+   pip install ultralytics
